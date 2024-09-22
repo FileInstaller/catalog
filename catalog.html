@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catalog - DeadlyGoofer</title>
+<style>
+body {
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+background: #08000f;
+font-family: Arial, sans-serif;
+color: #fff;
+}
+
+header {
+width: 100%;
+padding: 10px 20px;
+display: flex;
+align-items: center;
+}
+
+.logo {
+font-size: 1.3em;
+color: transparent;
+background: linear-gradient(to right, pink, purple);
+-webkit-background-clip: text;
+display: flex;
+align-items: center;
+}
+
+.logo img {
+width: 50px;
+height: 50px;
+margin-right: 10px;
+}
+
+main {
+width: 100%;
+padding: 20px;
+box-sizing: border-box;
+}
+
+h1 {
+text-align: center;
+margin-bottom: 40px;
+}
+
+.product-card {
+border: 1px solid #ff00ff;
+border-radius: 8px;
+padding: 20px;
+margin: 20px;
+display: inline-block;
+width: 300px;
+text-align: center;
+background-color: #1a1a1a;
+transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+transform: scale(1.05);
+}
+
+.product-card h2 {
+font-size: 1.5em;
+}
+
+.product-card img {
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+border: 2px solid #ff00ff;
+}
+
+.product-card p {
+color: #aaa;
+}
+
+button {
+border: 2px solid #ff00ff;
+color: #fff;
+background: none;
+font-size: 1em;
+padding: 10px 20px;
+text-decoration: none;
+transition: background-color 0.5s ease, color 0.5s ease; /* Плавное изменение фона */
+margin: 10px;
+cursor: pointer;
+}
+
+button:hover {
+background: linear-gradient(to right, pink, purple); /* Градиент при наведении */
+color: #000;
+}
+
+.footer {
+font-size: 0.75em;
+text-align: center;
+margin-top: 30px;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">
+<img src="https://raw.githubusercontent.com/FileInstaller/DGFIX/Website/logo.jpg" alt="Icon" />
+<span>DeadlyGoofer</span>
+</div>
+</header>
+
+<main>
+<h1>Каталог товаров</h1>
+<div class="container">
+<!-- Пример карточек товаров -->
+<div class="product-card">
+<h2>DeadlyGoofer.cc</h2>
+<img src="https://raw.githubusercontent.com/FileInstaller/DGFIX/refs/heads/Website/menu.png" alt="Фото товара 1">
+<p>Counter blox Script, HvH\Legit, Maybe free, wait to release</p>
+<button disabled>Wait for release</button>
+<p>deadlygoofer.cc catalog</p>
+</div>
+<div class="product-card">
+<h2>Neverdie.cc</h2>
+<img src="https://raw.githubusercontent.com/FileInstaller/DGFIX/refs/heads/Website/Screenshot%202024-09-23%20000821.png" alt="Фото товара 2">
+<p>Medium undetected script for lone survival, has bypassed fly\Bhop, good aimbot and better visuals, maybe free.</p>
+<button disabled>Wait for release</button>
+<p>deadlygoofer.cc catalog  </p>
+</div>
+<!-- Добавь больше товаров по примеру выше -->
+</div>
+</main>
+
+<footer class="footer">
+DeadlyGoofer.cc Official &copy;
+</footer>
+
+</body>
+</html>
