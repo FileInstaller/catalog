@@ -108,6 +108,37 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 }
+
+.neon-button {
+display: inline-block;
+border: 2px solid #ff00ff;
+color: #fff;
+background: none;
+font-size: 1em;
+padding: 10px 20px;
+text-decoration: none;
+transition: background-color 0.5s ease, color 0.5s ease; /* Плавное изменение фона */
+margin: 10px;
+cursor: pointer;
+}
+
+.neon-button:hover {
+background: linear-gradient(to right, pink, purple); /* Градиент при наведении */
+color: #000;
+}
+
+.footer {
+font-size: 0.75em;
+text-align: center;
+margin-top: 30px;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
 </style>
 </head>
 <body>
@@ -137,6 +168,17 @@ justify-content: center;
 <p>deadlygoofer.cc catalog  </p>
 </div>
 <!-- Добавь больше товаров по примеру выше -->
+<div class="product-card">
+<h2>DeadlyGoofer.Hub</h2>
+<img src="https://raw.githubusercontent.com/FileInstaller/Deadlygoofer.cc/refs/heads/Website/Screenshot%202024-09-23%20003210.png" alt="Фото товара 2">
+<p>Good hub for a very extensive list of games and scripts, has some custom script (not big) and a more universal script and other fun stuff, released, free to download</p>
+<!-- Кнопка-ссылка для скачивания -->
+<a href="https://your-download-link.com" class="neon-button">Download</a>
+<p>deadlygoofer.cc catalog</p>
+</div>
+<!-- Конец блока товара -->
+</div>
+</main>
 </div>
 </main>
 
